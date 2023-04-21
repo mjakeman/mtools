@@ -43,7 +43,7 @@ function EnumConverter() {
             var columns: string[] = [];
             var entries: string[] = [];
 
-            for (const [key, value] of Object.entries(csvData)) {
+            for (const [_key, value] of Object.entries(csvData)) {
 
                 var params: string[] = [];
 
